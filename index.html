@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Portfolio</title>
+    <link rel="stylesheet" href="C:\Users\marim\OneDrive\Desktop\JS Basics\style.css">
+    <script src="https://kit.fontawesome.com/8ef172e8a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+          <div class="nav-left">
+            <img src="images/K.png" class="logo">
+          </div>
+          <div class="nav-right">
+          
+            
+            <ul id="sidemenu">
+            
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills and Area of Interest</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+            </div>
+      </nav>
+      <div class="header-text">
+        <p>Web Designer</p>
+        <h1>Hi I'm<span> Mari Mithra</span><br> from Chennai</h1>
+      </div>
+    </div>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/boss.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="subtitle">About Me</h1>
+        <p>I am Marimithra,a passionate and aspiring web Developer, currently Pursuing my B.tech in Computer Science and Business 
+        I am deeply Enthusiastic about building creative,user-centric digital experiences and continuously learning modern technologies in the web development domain.
+        I Strive to develop solutions that are not only technically sound but also aligned with real-world business need.
+      I am particularly Interested in front-end development,UI/UX Design and Full stack .
+      My academic Journey has Equipped me with the fundamentals of HTML,CSS and Javascript.I aim to become a proficient web developer capable od contributing meaningfully to innovate
+    tech-drive solutions.I am excited to be the part of ever-evolving world and looking forward to shapping a succesful carrer in this field. </p>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links"  onclick="opentab('education')">Education</p>
+        <p class="tab-links"  onclick="opentab('interest')">Area of Interest</p>
+        
+      </div>
+      
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>UI/UX</span><br>Designing Web App Interface</li>
+          <li><span>Web Development</span><br>Web App Development</li>
+        </ul>
+      </div>
+      <div class="tab-contents " id="education">
+        <ul>
+          <li><span>2024</span><br>Completed HSC at KMHSS</li>
+          <li><span>2024-2028</span><br>B.Tech in CSBS at RIT Chennai</li>
+        </ul>
+      </div>
+      <div class="tab-contents " id="interest">
+        <ul>
+          <li><span>Web Development</span><br>I am Interestd and passionate upon developing a responsiive websites using HTML , CSS  and JavaScript</li>
+          <li><span>UI/UX Design</span><br>I am interested in designing user-friendly interfaces and enhancing user experience through effective design principles.</li>
+        </ul>
+      </div>
+      </div>
+      </div>
+  </div>  
+      </div>
+      <div id="areaofinterest">
+        <div class="container">
+          <h1 class="subtitle">Area Of Interest</h1>
+          <div class="interest-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Designer</h2>
+              <p>I am passionate web Designer with a strong Interest in creating visually appealing and user friendly websites. I Enjoy combining creativity with coding to deliver responsive modern, and functional designs.My focus
+                is on UI/UX, layout structuring, and ensuring seamless user experiences across devices. I am constantly learning and adapting to new design trends and technologies to enhance my skills and deliver high-quality web solutions.</p>
+              
+              </div>
+              <div>
+                <i class="fa-solid fa-crop-simple"></i>
+              <h2>UI/UX Designer</h2>
+              <p>I am a dedicated UI/UX designer with a keen eye for creating initutive, user centered designs. I focus on enhancing user Experiences through clean interfaces, thoughtful
+                navigation, and engaging interactions. My goal is to bridge the gap between user needs and business objectives by delivering designs that are not only visually appealing but also functional and accessible. I am committed to continuous learning and staying updated with the latest design trends and tools.</p>
+            
+              </div>
+              <div>
+                <i class="fa-solid fa-paintbrush"></i>
+              <h2>Front-end Developer</h2>
+              <p>I am a front-end developer with a passion for crafting interactive and responsive web applications. I specialize in HTML, CSS, and JavaScript, focusing on creating seamless user experiences. My goal is to bring designs to life through clean, efficient code while ensuring cross-browser compatibility and performance optimization. I am always eager to learn new technologies and improve my skills to deliver high-quality web solutions.</p>
+              
+            </div>
+          </div>
+          </div>
+        </div>
+<div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle">My work</h1>
+    </div>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/todo2.jpg">
+        <div class="layer">
+          <h3>To-Do List</h3>
+          <p>To-do List By JavaScript ensures DOM Manipulation by making To-Do list I have learnt the DOM Manipulations in JavaScript</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/porsh.jpg">
+        <div class="layer">
+          <h3>Personal Portfolio Website</h3>
+          <p>By Building Personal Portfolio Website I have learnt the fundamentals of HTML and CSS and Javascript and it enhanced me to understand the HTML elements and attributes.</p>
+          <p></p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    <div class="work">
+        <img src="images/regi2.jpg">
+        <div class="layer">
+          <h3>Registration Form</h3>
+          <p>By Building Registration Forms I have learnt The fundamentals of HTML and it enhanced me to understand the HTML
+          elements and attributes.</p>
+          </p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    
+  </div>
+  <a href ="#" class="btn">See more</a>
+</div>
+</div>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtitle">Contact me</h1><br>
+        <p><i class="fa-solid fa-paper-plane"></i>  marimithra2006@gmail.com</p><br>
+        <p> <i class="fa-solid fa-phone"></i> 1234567890</p>
+        <div class="social-icons">
+          <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/marimithra-a-m-656085344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/mithra-12-06"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href= "images/resume.pdf" class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form class="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="please enter your Name" required>
+          <input type="email" name="Email" placeholder="please Enter you e-mail id" required>
+          <textarea name="Message" rows="6"  placeholder="Your message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+       
+      </div>
+       
+      <div class="copyright">
+        <p>Copyright © Mithra. Made with <i class="fa-solid fa-heart"></i></p>
+      </div>
+      </div>
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+           for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link")
+           document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+      </script>
+
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+         function openmenu(){
+          sidemenu.style.right="0";
+        }
+
+         function closemenu(){
+          sidemenu.style.right="-200px";
+         }
+
+
+      </script>
+      
+
+
+
+
+  
+
+      </body>
+</html>
+    
+
+
+
+          
+          
+    
